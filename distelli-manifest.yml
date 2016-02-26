@@ -14,7 +14,8 @@ distelli/TestGithubRepo:
   # USERNAME/APPLICATIONNAME:
   #
   ############################################################
-
+  Build:
+    - ssh-list -L
   Env:
     - REPO_TYPE: Git
     ##########################################################
